@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearlayout"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/_id"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:textColor="#47b2ff"
+        android:editable="true" />
+
+    <TextView
+        android:id="@+id/Date"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:textColor="#47b2ff"
+        android:editable="true" />
+
+    <TextView
+        android:id="@+id/Type"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:textColor="#47b2ff"
+        android:editable="true" />
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:textColor="#47b2ff"
+        android:editable="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Amount"
+        android:layout_weight="1"
+        android:textColor="#47b2ff"
+        android:editable="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Category"
+        android:layout_weight="1"
+        android:textColor="#47b2ff"
+        android:editable="true" />
+
+</LinearLayout>
