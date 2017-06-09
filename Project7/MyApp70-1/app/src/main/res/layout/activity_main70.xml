@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main70"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.jagadish.myapp70_1.MainActivity70">
+
+    <Button
+        android:rotation="135"
+        android:background="@drawable/arrow1"
+        android:id="@+id/button8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/button3" />
+
+    <Button
+        android:rotation="270"
+        android:background="@drawable/arrow1"
+        android:id="@+id/button5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:rotation="180"
+        android:background="@drawable/arrow1"
+        android:id="@+id/button3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/button5"
+        android:layout_marginBottom="46dp" />
+
+    <Button
+        android:background="@drawable/arrow1"
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="8dp"
+        android:layout_above="@+id/button3"
+        android:layout_toEndOf="@+id/button5" />
+
+    <Button
+        android:rotation="90"
+        android:background="@drawable/arrow1"
+        android:id="@+id/button4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/button5"
+        android:layout_toEndOf="@+id/button3" />
+
+    <Button
+        android:rotation="315"
+        android:background="@drawable/arrow1"
+        android:id="@+id/button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/button5"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:rotation="45"
+        android:background="@drawable/arrow1"
+        android:id="@+id/button6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/button2" />
+
+    <Button
+        android:rotation="225"
+        android:background="@drawable/arrow1"
+        android:id="@+id/button7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="NOOP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/button6"
+        android:id="@+id/button9" />
+
+    <Button
+        android:text="SCAN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/button9"
+        android:layout_marginStart="29dp"
+        android:id="@+id/button10" />
+
+    <View android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rect"
+        android:layout_alignBottom="@+id/button3"
+        android:id="@+id/rect"
+        android:layout_alignTop="@+id/button4"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/button9" />
+</RelativeLayout>
