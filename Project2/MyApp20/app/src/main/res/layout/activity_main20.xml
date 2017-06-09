@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="jagadish.myapp20.MainActivity20">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the bill"
+        android:id="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:textSize="60dp"
+        android:textColor="#3ab15b"
+        android:textColorHighlight="#ffffff" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:minHeight="100dp"
+        android:minWidth="200dp"
+        android:textSize="60dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Percent of the tip to be left"
+        android:id="@+id/textView2"
+        android:textSize="30dp"
+        android:minHeight="40dp"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentStart="true"
+        android:minWidth="300dp"
+        android:layout_alignEnd="@+id/editText" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do you want to split?"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/editText2"
+        android:layout_alignParentStart="true"
+        android:textSize="35dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yes"
+        android:id="@+id/button"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/textView3"
+        android:textSize="25dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No"
+        android:id="@+id/button2"
+        android:layout_alignEnd="@+id/button"
+        android:layout_below="@+id/button"
+        android:layout_alignParentStart="true"
+        android:textSize="25dp" />
+
+</RelativeLayout>
