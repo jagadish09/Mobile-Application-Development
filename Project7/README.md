@@ -1,4 +1,9 @@
-# Program 7
+# Project# 7
+Description: 
+1) Developed joystick Android mobile application to control bot using Android Studio
+2) Implemented network protocol to communicate with server in Java
+3) Developed multithreaded programming to process different inputs at client side
+
 Name:  Jagadish Bapanapally
 Cosc 5730
 
