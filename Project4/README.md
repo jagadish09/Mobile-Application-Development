@@ -1,6 +1,7 @@
-# Program # X
-Name:  
-Cosc 5730
+# Project # 4
+Description of the project: prog4.pdf
+
+Name: Cosc 5730
 
 Description:  (how to run the program, phone/emulator screen size, android version ie 7.0)
 
