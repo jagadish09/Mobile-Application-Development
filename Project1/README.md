@@ -1,4 +1,9 @@
-# Program # 1
+# Project # 1
+Description :
+1) Its a basic android application. 
+2) App has an input field where the users enter their name. 
+3) When users click the button and the app will then display hello <name>.
+
 Name:  
 Cosc 5730 or 4730
 
