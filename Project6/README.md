@@ -1,4 +1,8 @@
-# Program # X
+# Project # 6
+Description:
+Developed a Tic-Tac-Toe application. User has an option to play the game with the AI developed or with other user.
+For more look at prog6.pdf
+
 Name:  Jagadish Bapanapally
 Cosc 5730
 
