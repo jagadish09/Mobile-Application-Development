@@ -1,5 +1,8 @@
 # Project # 4
-Description of the project: prog4.pdf
+Description of the project:
+
+Created an App to post ransactions and display transactions.
+For more look at prog4.pdf
 
 Name: Cosc 5730
 
