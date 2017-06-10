@@ -1,4 +1,21 @@
-# Program # X
+# Project # 2
+Description:
+
+This is a useful program for most people when they are at a restaurant and need to
+figure some information quickly with the bill. 
+
+Program will allow the following:
+Enter the amount, percent of the tip to be left, whether they want a rounding method and split the check.
+
+There are two rounding methods:
+1. Round TOTAL bill to near dollar
+2. Round the TIP to nearest dollar (then add to bill amount).
+
+The user can select one of the two or no rounding. The default is no rounding.
+
+Lastly, the split function:
+The bill will be split equally among the party. When the bill is to be split, it shows extra information. It shows the tip and total bill, and it also shows the split per person, Rounding will have similar results, round per tip per each person or rounding the total bill per person. The default value for the split is 1.
+
 Name:  Jagadish Bapanapally
 Cosc 5730
 
