@@ -13,6 +13,4 @@ Install the app. run the server and then open app in mobile.
 Phone-Nexus 5x-1080*1920,420dpi, Android 7.0
 
 
-Anything that doesn't work:
-
 
