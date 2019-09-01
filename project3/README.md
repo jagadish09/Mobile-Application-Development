@@ -27,5 +27,3 @@ Anything that doesn't work:
 Grade
 ===
 **Your grade:** 50/50
-
-* Everything works as expected
