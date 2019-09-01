@@ -5,7 +5,7 @@ Description :
 3) When users click the button and the app will then display hello <name>.
 
 Name:  
-Cosc 5730 or 4730
+Cosc 5730
 
 Description:  (how to run the program, phone/emulator screen size, android version ie 7.0)
 
