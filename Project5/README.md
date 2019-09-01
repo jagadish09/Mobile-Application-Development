@@ -1,7 +1,6 @@
 # Project # 5
 Description:
 Developed a content provider required for project#4.
-For more look at prog5.pdf
 
 Name:  
 Cosc 5730
